@@ -1,0 +1,56 @@
+body{
+    font-family: "Source Serif Pro Light";/*fondi tüüp*/
+    color: dimgray;/*teksti väarv*/
+}
+h1{
+    border: solid 2px dimgray; /*ääris*/
+    padding: 1%; /*vahe tekstist ääriseni*/
+    margin: 30px;
+    border-radius: 20px;
+    width: fit-content;
+    background-color: lightgray
+
+
+
+}
+h2{
+    border: dotted 5px dimgray; /*ääris, dashed, outline, double, solid*/
+    padding: 2%; /*vahe tekstist ääriseni*/
+    margin: 10px; /*vähe veebilehe piirist ääreseni*/
+    border-radius: 10px;
+    width: fit-content; /*laius*/
+    background-color: lightgrey /*tausta värv*/
+
+
+
+}
+h3{
+    border: dashed 5px gray; /*ääris*/
+    padding: 2%; /*vahe tekstist ääriseni*/
+    margin: 10px;
+    border-radius: 10px;
+    width: fit-content;
+    background-color: lightgrey
+
+
+
+}
+ul{
+    list-style-type: square; /*markeri tüüp - square, circle */
+    padding: 7px;
+    background-color: whitesmoke;
+}
+ul li{
+    background-color: lightgray;
+    margin:3px;
+    width : fit-content;
+}
+table {
+    width: 20%;
+    border: solid 2px darkgray;
+    padding: 1px;
+    border-collapse: collapse; /*ühine ääris*/
+    text-allign: center; /*teksti joondamine keskele*/
+    background-color: lightgray;
+
+}
