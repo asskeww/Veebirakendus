@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormis lugemine</title>
+    <script src="vormScript.js">  </script>
+    <link rel="stylesheet" href="jsStyle.css">
+</head>
+<body>
+<h1>Vormist lugemine JS abil</h1>
+<form action="">
+  <label for="nimi">Sisesta nimi</label>
+  <input type="text" name="nimi" id="nimi">
+    <br>
+    <label for="pnimi">Sisesta perekonnanimi</label>
+    <input type="text" name="pnimi" id="pnimi">
+    <br>
+    <label for="varv">Sisesta varv</label>
+    <input type="color" id="varv">
+    <br>
+    <!--radio nupp-->
+    <strong>Vali sugu:
+    </strong>
+    <br>
+    <input type="radio" name="sugu" id="mees">
+    <label for="mees"> mees</label>
+    <br>
+    <input type="radio" name="sugu" id="naine">
+    <label for="naine"> naine</label>
+
+    <br><br>
+    <label for="sunnipaev">Vali oma sünnipäev</label>
+    <input type="date" name="sunnipaev" id="sunnipaev">
+
+    <br>
+    <label for="num">Sisesta oma isikukood</label>
+    <input type="number" name="Isikukood" id="num">
+
+    <br>
+    <label for="email">Sisesta oma EMAIL</label>
+    <input type="text" name="EMAIL" id="email">
+    <br>
+    <label for="tel">Sisesta oma telefoni number</label>
+    <input type="number" name="Telefoni number" id="tel">
+    <br>
+    <label for="URL">Sisesta oma URL, Kui teil pole oma isiklikku URL-i, võite väli tühjaks jätta</label>
+    <input type="text" name="URL" id="URL">
+
+
+    <div id="vastus"></div>
+    <input type="button" value="OK" onclick="lugemine2()">
+
+
+
+
+
+
+
+</form>
+
+
+
+
+
+</body>
+</html>
+
+
+1.
+html -failis lisaa küsimused, et saab vastata
+input type=number max=100
+input tyoe=email
+input type=tel
+input type=url
+
+2.  js-failis lisada nende kastidest info lugemine
